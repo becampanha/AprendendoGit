@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         var teste = "asdasdasdadad"
+        var teste2 : Double = 3.22
+        printIn(teste + "\(teste2)")
         
     }
 

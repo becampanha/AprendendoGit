@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import Spring
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ViewEfectTest: SpringView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        layer.animation = "squeezeDown"
+        layer.animate()
+        
         // Do any additional setup after loading the view, typically from a nib.
+
+        var teste = "asdasdasdadad"
+        
     }
 
     override func didReceiveMemoryWarning() {
